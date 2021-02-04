@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock-Lizard-Spock</title>
+</head>
+<link rel="stylesheet" href="style.css" />
+
+<body>
+
+    <header>
+        <div class="title"><h1>Rock Paper Scissors Lizard Spock</h1></div>
+
+    </header>
+
+    <div class="row rules">
+            <UL>The Rules:
+                <li>Scissors cut Paper,</li>
+                <li>Paper covers Rock,</li>
+                <li>Rock crushes Lizard,</li>
+                <li>Lizard poisons Spock,</li>
+                <li>Spock smashes Scissors,</li>
+                <li>Scissors decapitate Lizard,</li>
+                <li>Lizard eats Paper,</li>
+                <li>Paper disproves Spock,</li>
+                <li>Spock vaporizes Rock,</li>
+                <li>Rock crushes Scissors.</li>
+            </UL>
+    </div>
+
+<div class="other-buttons row">
+    <div class="center-buttons">
+        <button type="button" class="play" id="computers-move">computer's turn</button>
+        <button type="button" class="play" id="reset">again!</button>
+        <a href="index-klingon.html"><button type="button" class="play">Klingon</button></a>
+    </div>
+</div>
+
+
+
+<div class="choices-buttons row">
+    <div class="center-buttons-choices">
+                    <button type="button" class="choices" id="rock"><img src="rock.jpg" alt="Rock"></button>
+                    <button type="button" class="choices" id="paper"><img src="paper.jpg" alt="Paper"></button>
+                    <button type="button" class="choices" id="scissors"><img src="scissors.jpg" alt="Scissors"></button>
+                    <button type="button" class="choices" id="lizard"><img src="lizard.jpg" alt="Lizard"></button>
+                    <button type="button" class="choices" id="spock"><img src="spock.jpg" alt="Spock"></button>
+    </div>
+</div>
+
+<div class= "score row">
+<p id="target-score"></p>
+</div>
+
+<div class="winner row" id="winnerbox">
+    <p id="target"></p>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
